@@ -65,7 +65,7 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
-    "leaflet-draw": "github:chritsian/Leaflet.Draw",
+    "leaflet-draw": "file:../leaflet-draw",
     "lodash-es": "^4.17.10",
     "uglifyjs-webpack-plugin": "^2.2.0"
   }
