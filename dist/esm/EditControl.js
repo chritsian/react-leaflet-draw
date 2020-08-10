@@ -70,6 +70,7 @@ var EditControl = /*#__PURE__*/function (_MapControl) {
     _defineProperty(_assertThisInitialized(_this), "onDrawCreate", function (e) {
       var onCreated = _this.props.onCreated;
       var layerContainer = _this.props.leaflet.layerContainer;
+      console.log("import worked hihi");
       layerContainer.addLayer(e.layer);
       onCreated && onCreated(e);
     });

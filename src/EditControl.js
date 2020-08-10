@@ -63,7 +63,7 @@ class EditControl extends MapControl {
   onDrawCreate = (e) => {
     const { onCreated } = this.props;
     const { layerContainer } = this.props.leaflet;
-
+    console.log("import worked hihi")
     layerContainer.addLayer(e.layer);
     onCreated && onCreated(e);
   };
